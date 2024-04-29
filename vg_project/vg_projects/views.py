@@ -1,18 +1,24 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 # Create your views here.
+
+def home(request):
+    return render(request,"base.html")
+
 def inicio(request):
-   return HttpResponse("Bienvenido a vg project")
-def vista(request):
-   return render(request,'index.html')
+    return render (request,"inicio.html")
+
+def perfil(request):
+    return render(request,"perfil.html")
+
 def pago(request):
     return render(request,"pago.html")
 
 def categorias(request):
     return render(request,"categorias.html")
 
-def vista_previa_producto(request):
-    return render(request,"vista_previa_producto.html")
+def comunidad(request):
+    return render(request,"comunidad.html")
 
 def base(request):
     return render(request,"base.html")

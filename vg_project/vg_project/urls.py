@@ -16,17 +16,13 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from vg_projects.views import inicio
-from vg_projects.views import vista
-from vg_projects.views import categorias,vista_previa_producto,base
-from vg_projects.views import pago
+from vg_projects.views import inicio,perfil,categorias,pago,comunidad,base
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path("",inicio),
-    path("perfil",vista),
-    path('',base),
+   path('admin/', admin.site.urls),
+    path('',inicio),
+    path('perfil/',perfil),
     path('categorias/',categorias),
     path('pago/',pago),
-    path('vista_previa_producto/',vista_previa_producto)
+    path('comunidad/',comunidad),
 ]

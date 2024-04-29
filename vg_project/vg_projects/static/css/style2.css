@@ -1,0 +1,61 @@
+body{
+    background-color:black;
+    }
+    .icono-perfil{
+    height: 6rem;
+    border-radius:50%;
+    }
+    .nombre-perfil{
+    color: white;
+    }
+    .codigo-perfil{
+    color: white;
+    }
+    .margin-perfil{
+    margin-top: 1.2rem;
+    margin-left: 2.2rem;
+    }
+    .codigo-perfil{
+    font-size:1.2rem ;
+    }
+    .button-perfil-config{
+    font-size: .95rem;
+    }
+    .card-sobre-mi{
+    margin-top: 2rem;
+    }
+    .card-link-github{
+    color: inherit;
+    font-size: 1.5rem;
+    }
+    .card-link-email{
+    color: inherit;
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    }
+    .card-proyectos{
+        margin-top: 3rem;
+        display: inline-flex;
+        margin-left: 2rem;
+        width: 18rem;
+    }
+    .titulo-proyectos{
+    margin-left: 1rem;
+    margin-top: 2.5rem;
+    color: white;
+    }
+    
+    .card-assassin{
+    height: 9rem;
+    }
+    
+    .icon-trash{
+    font-size: 3rem;
+    }
+    .card-carrito{
+    display: inline-flex;
+    margin-left: 2rem;
+    }
+    .titulo-carrito{
+    color: white;
+    }

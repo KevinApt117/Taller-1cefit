@@ -1,0 +1,68 @@
+{% extends 'base.html' %}
+{%load static%}
+{%block contenido%}
+<body>
+    <ul class="nav">
+        <li class="nav-item">
+          <img class = "icono-perfil" src = "{%static 'imagenes/icono.jpg'%}" alt="">
+        </li>
+        <li class="nav-item">
+          <h3 class = "margin-perfil nombre-perfil">Tomas Martinez</h3>
+        </li>
+        <li class="nav-item">
+          <p class = "codigo-perfil margin-perfil" >a11</p>
+          <li class = "nav-item margin-perfil">
+          <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle button-perfil-config " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Configuracion de perfil
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Agregar foto de perfil</a></li>
+              <li><a class="dropdown-item" href="#">Cambiar Nombre</a></li>
+              <li><a class="dropdown-item" href="#">Agregar un sobre mi</a></li>
+            </ul>
+       </li>
+        </div>
+      </ul>
+      <div class="card card-sobre-mi">
+        <div class="card-body">
+          <h5 class="card-title">Sobre mi</h5>
+          <p class="card-text">
+            Soy un desarrollador de videojuegos que tienen varios proyectos propios y experiencia en proyectos grupales
+        </p>
+        <a href="https://github.com/tomas12py" target = "blank" class="card-link-github"><i class="bi bi-github"></i></a>
+        <a href="mailto: tomi12mc@gmail.com"  class = "card-link-email"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+      </div>
+      <h5 class = "titulo-proyectos">Estos son mis proyectos</h5>
+      <div class="card card-proyectos">
+        <img src="{%static 'imagenes/league-of-legends.avif'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">League of legends</h5>
+          <p class="card-text">videojuego 5vs5 donde tendras que destruir el nexo del otro equipo para poder ganar</p>
+        </div>
+      </div>
+      <div class="card card-proyectos">
+        <img src="{%static 'imagenes/fornite_1.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fortnite battle royale</h5>
+          <p class="card-text">Video juego battle royale de 100 jugadores donde el ultimo jugador en pie es el ganador</p>
+        </div>
+      </div>
+      <div class="card card-proyectos">
+        <img src="{%static 'imagenes/assassin.jpg'%}" class="card-img-top card-assassin" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Assassin's Creeed</h5>
+          <p class="card-text">Videojuego de sigilo y parkour para asesinar a tus enemigos</p>
+        </div>
+      </div>
+      <div class="card card-proyectos">
+        <img src="{%static 'imagenes/gta5.jpg'%}" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Grand Theft Auto</h5>
+          <p class="card-text">videojuego basado en la ciudad de los angeles con muchos recursos de armas y automoviles</p>
+        </div>
+      </div>
+</body>
+</html>
+{%endblock%}

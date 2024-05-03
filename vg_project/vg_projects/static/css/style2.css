@@ -1,61 +1,54 @@
-body{
-    background-color:black;
-    }
-    .icono-perfil{
-    height: 6rem;
-    border-radius:50%;
-    }
-    .nombre-perfil{
-    color: white;
-    }
-    .codigo-perfil{
-    color: white;
-    }
-    .margin-perfil{
-    margin-top: 1.2rem;
-    margin-left: 2.2rem;
-    }
-    .codigo-perfil{
-    font-size:1.2rem ;
-    }
-    .button-perfil-config{
-    font-size: .95rem;
-    }
-    .card-sobre-mi{
-    margin-top: 2rem;
-    }
-    .card-link-github{
-    color: inherit;
-    font-size: 1.5rem;
-    }
-    .card-link-email{
-    color: inherit;
-    font-size: 1.5rem;
-    margin-left: 1rem;
-    }
-    .card-proyectos{
-        margin-top: 3rem;
-        display: inline-flex;
-        margin-left: 2rem;
-        width: 18rem;
-    }
-    .titulo-proyectos{
-    margin-left: 1rem;
-    margin-top: 2.5rem;
-    color: white;
-    }
-    
-    .card-assassin{
-    height: 9rem;
-    }
-    
-    .icon-trash{
-    font-size: 3rem;
-    }
-    .card-carrito{
-    display: inline-flex;
-    margin-left: 2rem;
-    }
-    .titulo-carrito{
-    color: white;
-    }
+.titulos{
+    color: rgb(29, 236, 19);
+}
+
+.navCategorias{
+    font-size: 25px;
+    color:aliceblue;
+}
+
+.navComunidad{
+    font-size: 25px;
+    color:white;
+}
+
+body{background-color: black;}
+
+ul{
+    list-style:none;
+}
+
+.fondoBoton{
+    background-color: rgb(29, 236, 19);
+}
+
+.wpp{
+color: inherit;
+margin-left: .80rem;
+}
+.contenedor-wpp{
+border-radius: 45%;
+width: 4rem;
+height: 4rem;
+font-size: 2.5rem;
+margin-top: 1.5rem;
+margin-left: 1rem;
+background-color: #25d366;
+}
+.icon-wpp{
+color: white;
+}
+
+.icons{
+display: inline-flex;
+margin-left: 2rem;
+}
+.email{
+font-size: 2.5rem;
+color: white;
+}
+.imagen-logo{
+width: 18rem;
+height: 18rem;
+margin-left: 33rem;
+}

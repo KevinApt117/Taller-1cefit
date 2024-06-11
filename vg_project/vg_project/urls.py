@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from vg_projects.views import inicio,perfil,categorias,pago,comunidad,base
+from vg_projects.views import inicio,perfil,categorias,pago,comunidad,base,Login,Logup,reclutamiento,resultado
 
 urlpatterns = [
    path('admin/', admin.site.urls),
@@ -25,4 +25,8 @@ urlpatterns = [
     path('categorias/',categorias),
     path('pago/',pago),
     path('comunidad/',comunidad),
+    path('logup',Logup),
+    path('login',Login),
+    path('resultado_de_busqueda',resultado),
+    path('reclutamiento',reclutamiento)
 ]

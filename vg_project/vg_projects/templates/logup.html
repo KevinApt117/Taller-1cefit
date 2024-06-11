@@ -1,0 +1,42 @@
+{% extends 'base.html'%}
+{% load static %}
+{% block contenido %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <form>
+        <div class = "contain-form form-items">
+        <div class = "contain-img mb-4">
+        <img class = "img-form" src="{% static 'imagenes/logo.png' %}" alt="">
+       </div>
+        <div class="mb-3 ">
+          <label for="exampleInputEmail1" class="form-label text-white">Crear nombre de usuario </label>
+          <input required ="text" class="form-control form-size" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder = "usuario">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label text-white">Ingrese el correo electronico</label>
+          <input required ="email" class="form-control form-size" id="exampleInputPassword1" placeholder = "correo electronico">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-white">fecha de nacimiento </label>
+            <input type = "date" class="form-control form-size" id="exampleInputPassword1" placeholder = "edad">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-white">Crear contraseña</label>
+            <input  required ="password" class="form-control form-size" id="exampleInñputPassword1" placeholder = "contraseña"> 
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label text-white">Ingresa tu genero</label>
+            <input type="text" class = "form-control form-size" id="exampleInñputPassword1" placeholder = "sexo">
+          </div>
+        <button type="submit" class="btn btn-primary mt-2">Enviar</button>
+    </div>  
+    </form>
+</body>
+</html>
+{% endblock %}

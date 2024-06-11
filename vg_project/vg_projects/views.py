@@ -22,3 +22,15 @@ def comunidad(request):
 
 def base(request):
     return render(request,"base.html")
+
+def Logup(request):
+    return render(request,"logup.html")
+
+def Login(request):
+    return render(request,"login.html")
+
+def resultado(request):
+    return render(request,"resultado_usuario.html")
+
+def reclutamiento(request):
+    return render(request,"reclutamiento.html")
